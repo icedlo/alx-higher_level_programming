@@ -3,7 +3,7 @@
 const size = process.argv[2];
 
 if (size === undefined || isNaN(parseInt(size))) {
-  console.log('Mising size');
+  console.log('Missing size');
 } else {
   for (let i = 0; i < parseInt(size); i++) {
     let row = '';
