@@ -1,3 +1,3 @@
 #!/bin/bash
---List databases
+-- List databases in mysql server
 SHOW DATABASES;
